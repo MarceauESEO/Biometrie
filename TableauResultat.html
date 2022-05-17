@@ -1,0 +1,100 @@
+<head>
+  <title>Tableau des resultats</title>
+  <meta charset = "utf-8" />
+  <meta name= "author" content="Marceau Moulin" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class= alwaysOnTop>
+    <nav id ="Menu">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="TableauResultat.html">Resultat</a></li>
+        <li><a href="ExplicationTheorique.html">Explication Theorique</a>
+          <ul>
+            <li><a href="ExplicationTheorique.html#1" title="1. Outils de suivi de projets">1. Outils de suivis de projets</a></li>
+            <li><a href="ExplicationTheorique.html#2" title="2. Les principes fondamentaux de la mémoire de travail">2. Les principes fondamentaux de la mémoire de travail</a></li>
+            <li><a href="ExplicationTheorique.html#3" title="3. Conclusion">3. Conclusion</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <main>
+    <br/><br/><h1>Presentation du tableau des resultats</h1>
+    <table>
+      <caption class = tabletitle>Resultats des tests de memoire</caption>
+      <tr>
+        <th>                   </th>
+        <th>  Samuel Marianne  </th>
+        <th>    Alexis Vitse   </th>
+        <th>  Francois Doniol  </th>
+        <th>   Marceau Moulin  </th>
+      </tr>
+      <tr>
+        <td>Semaine 1</td>
+        <td>32</td>
+        <td>31</td>
+        <td>38</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>Semaine 2</td>
+        <td>35</td>
+        <td>46</td>
+        <td>42</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Semaine 3</td>
+        <td>41</td>
+        <td>46</td>
+        <td>52</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>Semaine 4</td>
+        <td>57</td>
+        <td>59</td>
+        <td>59</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <td>Semaine 5</td>
+        <td>56</td>
+        <td>77</td>
+        <td>50</td>
+        <td>65</td>
+      </tr>
+      <tr>
+        <td>Semaine 6</td>
+        <td>54</td>
+        <td>65</td>
+        <td>55</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>Semaine 7</td>
+        <td>52</td>
+        <td>68</td>
+        <td>56</td>
+        <td>59</td>
+      </tr>
+      <tr>
+        <td class = Moyenne>Moyenne</td>
+        <td class = Moyenne>46,71</td>
+        <td class = Moyenne>56</td>
+        <td class = Moyenne>50,29</td>
+        <td class = Moyenne>58,14</td>
+      </tr>
+    </table>
+<br/><br/><br/>
+
+<canvas id="plots"></canvas>
+<script src="plot.js"></script>
+
+</body>
